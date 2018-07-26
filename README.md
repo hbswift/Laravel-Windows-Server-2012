@@ -16,13 +16,13 @@ During my time at an internship I had to create an internal web application for 
 ```
 Manage -> Add Roles and Features
 ```
-(1.png)
-(2.png)
+[](/1.png)
+[](/2.png)
 
 * Skipping the Features Tab
 * In Role Services under Application Development check CGI
 
-(3.png)
+[](/3.png)
 
 * Install
 
@@ -57,7 +57,7 @@ php_pdo_sqlsrv.dll (This one is added manually)
 
 If you encounter the `VCRUNTIME140.dll is missing` error, please download the component from [Visual C++ Redistributable Package ](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
-(5.png)
+[](/5.png)
 
 ## Configure Handler Mapping
 
@@ -66,9 +66,9 @@ Go to `Handler Mappings` and on the side click `Add Module Mappings`.
 
 Here is how it should look
 
-(6.png)
+[](/6.png)
 A prompt will ask if you want to create a FastCGI application:
-(7.png)
+[](/7.png)
 Click Yes.
 ## Composer
 
@@ -94,7 +94,7 @@ Write
 127.0.0.1                 myproject.dev
 ```
 * Return to IIS and `Add Website`
-(8.png)
+[](/8.png)
 Make sure you point to the public folder.
 
 * Check if the web.config imported the values in .htaccess found in the public folder. If not then manually import from the `.htaccess` file in the public folder.
@@ -122,4 +122,4 @@ Finished!
 
 ## Troubleshooting
 
-If viewing your project through Internet Explorer returns a `Page can't be displayed` make sure that in the internet options `Enhanced Protected Mode` is unchecked!
+If viewing your project through Internet Explorer returns a `Page cannot be displayed`  and you there are no errors being displayed in any logs then be sure that in the internet options `Enhanced Protected Mode` is unchecked!
