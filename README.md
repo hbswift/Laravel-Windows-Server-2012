@@ -16,13 +16,13 @@ During my time at an internship I had to create an internal web application for 
 ```
 Manage -> Add Roles and Features
 ```
-[](/images/1.png)
-[](/images/2.png)
+![](/images/1.png)
+![](/images/2.png)
 
 * Skipping the Features Tab
 * In Role Services under Application Development check CGI
 
-[](/images/3.png)
+![](/images/3.png)
 
 * Install
 
@@ -57,7 +57,7 @@ php_pdo_sqlsrv.dll (This one is added manually)
 
 If you encounter the `VCRUNTIME140.dll is missing` error, please download the component from [Visual C++ Redistributable Package ](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
-[](//images5.png)
+![](//images5.png)
 
 ## Configure Handler Mapping
 
@@ -66,9 +66,9 @@ Go to `Handler Mappings` and on the side click `Add Module Mappings`.
 
 Here is how it should look
 
-[](/images/6.png)
+![](/images/6.png)
 A prompt will ask if you want to create a FastCGI application:
-[](/images/7.png)
+![](/images/7.png)
 Click Yes.
 ## Composer
 
@@ -94,7 +94,7 @@ Write
 127.0.0.1                 myproject.dev
 ```
 * Return to IIS and `Add Website`
-[](/images/8.png)
+![](/images/8.png)
 Make sure you point to the public folder.
 
 * Check if the web.config imported the values in .htaccess found in the public folder. If not then manually import from the `.htaccess` file in the public folder.
