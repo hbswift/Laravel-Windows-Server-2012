@@ -32,9 +32,9 @@ You will need to install the extension [URL Rewrite](https://www.iis.net/downloa
 ## PHP
 
 [PHP](https://windows.php.net/download#php-7.0) 
-We will be using the x64 Non Thread Safe version since we will be running PHP in Fastcgi mode. Unzip this into `C:PHP`.
+We will be using the `x64 Non Thread Safe` version since we will be running PHP in Fastcgi mode. Unzip this into `C:PHP`.
 
-You will need to copy either the production or developmental .ini file and save it to C:Windows. You may need to run your text editor with admin permissions due to the file location
+You will need to copy either the production or developmental .ini file and save it to `C:Windows`. You may need to run your text editor with admin permissions due to the file location
 ```
 extension_dir = “ext” (enable this if you’re going to use extensions)
 fastcgi.impersonate = 1 (enable this)
