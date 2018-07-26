@@ -127,4 +127,4 @@ Finished!
 
 ## Troubleshooting
 
-If viewing your project through Internet Explorer returns a `Page cannot be displayed`  and you there are no errors being displayed in any logs then be sure that in the internet options `Enhanced Protected Mode` is unchecked!
+If viewing your project through Internet Explorer returns a `Page cannot be displayed`  and you know for certain there are no errors in your project or errors being displayed in any logs then be sure that in the internet options `Enhanced Protected Mode` is unchecked!
