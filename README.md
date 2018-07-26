@@ -57,7 +57,7 @@ php_pdo_sqlsrv.dll (This one is added manually)
 
 If you encounter the `VCRUNTIME140.dll is missing` error, please download the component from [Visual C++ Redistributable Package ](https://www.microsoft.com/en-us/download/details.aspx?id=48145).
 
-![](//images5.png)
+![](/images/5.png)
 
 ## Configure Handler Mapping
 
