@@ -67,8 +67,11 @@ Go to `Handler Mappings` and on the side click `Add Module Mappings`.
 Here is how it should look
 
 ![](/images/6.png)
+
 A prompt will ask if you want to create a FastCGI application:
+
 ![](/images/7.png)
+
 Click Yes.
 ## Composer
 
@@ -94,7 +97,9 @@ Write
 127.0.0.1                 myproject.dev
 ```
 * Return to IIS and `Add Website`
+
 ![](/images/8.png)
+
 Make sure you point to the public folder.
 
 * Check if the web.config imported the values in .htaccess found in the public folder. If not then manually import from the `.htaccess` file in the public folder.
