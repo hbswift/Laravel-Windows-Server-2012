@@ -1,6 +1,6 @@
 # Configuring Windows Server 2012 to Host a Laravel Project
 
-During my time at an internship I had to create an internal web application for onboarding/offloading employees. I chose to use the Laravel framework and was provided to host the project on a Windows Server 2012 R2 using IIS as well as MSSQL Server 2012.
+During my time at a contracted job I had to create an internal web application for onboarding/offloading employees. I chose to use the Laravel framework and was provided to host the project on a Windows Server 2012 R2 using IIS as well as MSSQL Server 2012.
 
 ## What you'll need
 
